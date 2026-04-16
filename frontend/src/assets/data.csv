@@ -1,0 +1,78 @@
+﻿Action items log,,,,,,,,,
+#,Raised,Project ,Action,Owner,Reference ,Target Date,Status,Remark,
+1,03/03/2023,EnGRC,SPOC for each activity,Guru,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,08/03/2023,Closed,"QA -> Vamsi Naidu -> Mohanababu Chavala
+Dev -> Mohan -> Deven
+Project Management->Ruth ->Mohan -> Guru
+Process ->Need to identify (for now Ruth and Guru)
+BA -> Akansha -> Tejas
+Implementation / Deployment -> Mohan -> Deven
+Architecture / Infra -> Deven -> Ratan",
+2,03/03/2023,EnGRC,Identify Resource for Document Checking,Guru,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,15/03/2023,On Going,Waiting for Dr.Kalyan's response,
+3,03/03/2023,EnGRC,"Create development tab, documents tab, testing tab, cloud env setup tab, 3i internal implementation tab,Collaboration Tool, Power BI Dashboards",Ruth,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,06/03/2023,Closed,,
+4,03/03/2023,EnGRC,Create EnIA Requirements  in two parts (1.Features 2.Report),Ruth,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,03/03/2023,Closed,Provided revised estimates to Guru,
+5,03/03/2023,EnGRC,Schedule meeting for Collaboration tool,Ruth,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,03/03/2023,Closed,,
+6,03/03/2023,EnGRC,Follow up with mail admin for password change for Gillian and Elmar,Ruth,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,16/03/2023,Closed,Gillain is able to change the password today,
+7,03/03/2023,EnGRC,Guru will introduce Gillian and Elmar to Compliance team,Guru,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,15/03/2023,On Going,Call is scheduled on March 15th,
+8,03/03/2023,EnGRC,"Harish suggested for Operations call with Guru, Gillian and Elmar, to discuss on customization and implementation.",Guru,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,13/03/2023,Closed,,
+9,03/03/2023,EnGRC,Guru planning to add one front end plus two back end resources temporarily to meet 31.03.2023 deadline.,Guru,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,13/03/2023,On Going,"2 resources for BE are identified, will be working from 13 Mar 2023",
+10,03/03/2023,EnGRC,Get a person from cloud team to add to weekly meetings,Guru,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,08/03/2023,On Going,"Invited John baby from Cloud team,from next friday he will join the calls.",
+11,03/03/2023,EnGRC,"Get a lead for Client–3i implementation: Requirements gathering (users, structures); Focus EnRAM",Guru,EnGRC-Status Call-MOM-3 Mar 2023 v1.0,,On Going,Dr.Kalyan suggested QA Lead,
+12,08/03/2023,EnGRC,Upload all pending UI backlog items to Jira and Program Plan>>Bugs List,Tejas,EnGRC-Weekly Call-MOM-8 Mar 2023 v1.0,09/03/2023,Closed,,
+13,08/03/2023,EnGRC,Need to raise a bug with high priority for default values in Control Matrix Template,Tejas,EnGRC-Weekly Call-MOM-8 Mar 2023 v1.0,09/03/2023,Closed,,
+14,08/03/2023,EnGRC,Share the updated Risk control matrix template with GH,Tejas,EnGRC-Weekly Call-MOM-8 Mar 2023 v1.0,09/03/2023,Closed,,
+15,08/03/2023,EnGRC,Program Plan tracker to be updated by Friday Meeting.,Ruth,EnGRC-Weekly Call-MOM-8 Mar 2023 v1.0,10/03/2023,Closed,,
+16,08/03/2023,EnGRC,Confirmation with GU on Scrum Master Utilization in EnGRC(Percentage),Ruth,EnGRC-Weekly Call-MOM-8 Mar 2023 v1.0,10/03/2023,Closed,,
+17,08/03/2023,EnGRC,Updated Bug list with Module and components by Friday ,Ruth,EnGRC-Weekly Call-MOM-8 Mar 2023 v1.0,10/03/2023,Closed,,
+18,08/03/2023,EnGRC,Revise the development effort estimates by Monday,Mohan,EnGRC-Weekly Call-MOM-8 Mar 2023 v1.0,10/03/2023,On Going,,
+19,10/03/2023,EnGRC,Add target date and reference ID in Action Item tracker,Ruth,EnGRC-Status Call-MOM-10 Mar 2023 v1.0,13/03/2023,Closed,,
+20,10/03/2023,EnGRC," Schedule Call with AS and GH to work on Implementation process 
+steps and check list",Ruth,EnGRC-Status Call-MOM-10 Mar 2023 v1.0,10/03/2023,Closed,,
+21,10/03/2023,EnGRC,"To create more grooming sessions to understand the 
+functionality without missing anything",Ruth,EnGRC-Status Call-MOM-10 Mar 2023 v1.0,,On Going,,
+22,10/03/2023,EnGRC,Action Items will be tracked in Action tracker and not in MOM,Ruth,EnGRC-Status Call-MOM-10 Mar 2023 v1.0,13/03/2023,Closed,,
+23,10/03/2023,EnGRC,"Solution to resource problem: Deven and Mohan . Mohan is 
+needed 50%, Deven 100%",Guru,EnGRC-Status Call-MOM-10 Mar 2023 v1.0,14/03/2023,Closed,Team will work on the process defined by Guru and will contribute and stretch in EnGRC whenever they are required.,
+24,10/03/2023,EnGRC,"Solution to resource problem: additional resources to meet target 
+for EnGRC 31. March 2023",Guru,EnGRC-Status Call-MOM-10 Mar 2023 v1.0,,Open,2 Backend developers and one frontened developer ahs been added.Still need one Full time Backend resource.,
+25,10/03/2023,EnGRC, Resource from Dr. Kalyan for part of the EnGRC documents,Guru,EnGRC-Status Call-MOM-10 Mar 2023 v1.0,,Open,,
+26,14/03/2023,EnGRC,Update the planned leaves in the resource tracker.,Ruth,EnGRC-Weekly Call-MOM-14 Mar 2023 v1.0,15/03/2023,Closed,,
+27,14/03/2023,EnGRC,Add to backlog that the design in details tab is not proper. Spaces between previous and next fields.topics and types are not aligned properly .inconsistent across the page etc.,Ruth,EnGRC-Weekly Call-MOM-14 Mar 2023 v1.0,15/03/2023,Closed,,
+28,14/03/2023,EnGRC,Select a year should have range selection- 2 drop downs,Ruth,EnGRC-Weekly Call-MOM-14 Mar 2023 v1.0,15/03/2023,Closed,,
+29,14/03/2023,EnGRC,Add front end and backend developer next to each other in program tracker and only DMS or collaboration tool,Ruth,EnGRC-Weekly Call-MOM-14 Mar 2023 v1.0,15/03/2023,Closed,,
+30,17/03/2023,EnGRC,"Need to update the program tracker with only one entry Ex: Test 
+Automation, DMS",Ruth,EnGRC-Status Call-MOM-17 Mar 2023 v1.0,17/03/2023,Closed,,
+31,17/03/2023,EnGRC,"Maintain Separate tabs for GRC and Compliance
+Depts.Implementations",Ruth,EnGRC-Status Call-MOM-17 Mar 2023 v1.0,20/03/2023,Closed,,
+32,17/03/2023,EnGRC,"Need to connect with MY on the new resources available from 
+April 1st",Ruth,EnGRC-Status Call-MOM-17 Mar 2023 v1.0,20/03/2023,Closed,,
+33,17/03/2023,EnGRC,"To share Process flow diagram (Functional point of view) with QA 
+team to prepare regression scenarios for automation",Guru,EnGRC-Status Call-MOM-17 Mar 2023 v1.0,20/03/2023,Closed,,
+34,17/03/2023,EnGRC,To provide estimates for the backlog items,Mohan,EnGRC-Status Call-MOM-17 Mar 2023 v1.0,24/03/2023,Open,,
+35,17/03/2023,EnGRC,To work on User manual,Akansha,EnGRC-Status Call-MOM-17 Mar 2023 v1.0,,On Going,,
+36,17/03/2023,EnGRC,"To check with Aneesh from Pre sales for beautification documents 
+and structure. For Manuals upload as HTML into EnGRC",Ruth,EnGRC-Status Call-MOM-17 Mar 2023 v1.0,20/03/2023,Closed,,
+37,24/03/2023,EnGRC,Block the meeting room on 28th March at 2PM IST,Ruth,EnGRC-Status Call-MOM-24 Mar 2023 v1.0,24/03/2023,Closed,,
+38,24/03/2023,EnGRC,Raise IT ticket for laptops to the new resources. RG 27 Mar2023,Ruth,EnGRC-Status Call-MOM-24 Mar 2023 v1.0,30/03/2023,Closed,,
+39,24/03/2023,EnGRC," RG to add backlog items to the new features list so that it can considered for 23-24 budget,",Ruth,EnGRC-Status Call-MOM-24 Mar 2023 v1.0,30/03/2023,Open,Added for few and need Gillian's inputs on few items.,
+40,24/03/2023,EnGRC,Sandip Dabre to provide High level plan on to start on the implementation part,Ruth,EnGRC-Status Call-MOM-24 Mar 2023 v1.0,25/03/2023,,,
+41,31/03/2023,EnGRC," Revise end date needs to be updated with the proper dates and in status column value as for demo to be added and color
+coding has to be changed in development ",Ruth,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,,On Going,,
+42,31/03/2023,EnGRC,To check with RG on documentation tracker to mention in detail about the documentation.,Guru,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,,,,
+43,31/03/2023,EnGRC," To add a bug - if user has subscribed only for EnRICO module
+then he should see the configuration menu to upload Risk control
+matrix. And also in Risk and Control form open issue button should
+not be displayed. Check all inconsistencies",Tejas,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,31/03/2023,Closed,,
+44,31/03/2023,EnGRC," Add point in Backlog item for edit validations for the dates in
+Meeting field under Team and Timeline form.",Tejas,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,31/03/2023,Closed,,
+45,31/03/2023,EnGRC, To upload the matrix provided by ,Tejas,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,31/03/2023,Closed,,
+46,31/03/2023,EnGRC, DS to look into design point of view,Deven,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,,On Going,,
+47,31/03/2023,EnGRC, Design Guidelines document to be shared with the developers,Tejas,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,03/04/2023,Closed,,
+48,31/03/2023,EnGRC,"To check all the font size and the colors from the design
+document and change wherever required.",Pankaj,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,,On Going,,
+49,31/03/2023,EnGRC, To check with Mohan on the color scheme is not hard coded.,Deven,EnGRC-Status Call-MOM-31 Mar 2023 v1.0,03/04/2023,Closed,,
+50,05/04/2023,EnGRC,Prepare a list of all Microservices and components in one single document,Deven,EnGRC-Weekly Call-MOM-5 Apr 2023 v1.0,,Open,,
+51,05/04/2023,EnGRC,Add  a lead to each Microservice and any developer who has the expertise in that particular Microservice – add it to document in point 1 as an appendix ,Ruth,EnGRC-Weekly Call-MOM-5 Apr 2023 v1.0,,Open,,
+52,05/04/2023,EnGRC,Add a bug for the tree structure in Attribute tab,Tejas,EnGRC-Weekly Call-MOM-5 Apr 2023 v1.0,05/04/2023,Closed,,
+53,05/04/2023,EnGRC,Add a backlog item for Company set up for the checkbox in Dashboard.,Tejas,EnGRC-Weekly Call-MOM-5 Apr 2023 v1.0,05/04/2023,Closed,,
+54,05/04/2023,EnGRC,Add Testers in the KT calls,Ruth,EnGRC-Weekly Call-MOM-5 Apr 2023 v1.0,,Open,,
+55,05/04/2023,EnGRC,"Add missing audit trail Microservice and  Data Mart into the Architecture documents (HLD, LLD)",Deven,EnGRC-Weekly Call-MOM-5 Apr 2023 v1.0,,Open,,

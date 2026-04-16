@@ -1,0 +1,16 @@
+{
+  "name": "TriNova",
+  "version": 2,
+  "builds": [
+    {
+      "src": "*py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/app/(.*)",
+      "dest": "app/main.py"
+    }
+  ]
+}
