@@ -276,9 +276,9 @@ otp_template = """<!DOCTYPE html>
         
         <div class="footer">
             <div class="company-info">
-                <h3>TriNova</h3>
+                <h3>SprintSync</h3>
                 <p>123 Business Street, City, State 12345</p>
-                <p>© 2025 TriNova. All rights reserved.</p>
+                <p>© 2025 SprintSync. All rights reserved.</p>
             </div>
             
             <div class="social-links">
@@ -307,7 +307,7 @@ async def send_otp(receiver_email: str, otp: str, full_name: str) -> str:
         message = MIMEMultipart("alternative")
         message["From"] = settings.EMAIL_USER
         message["To"] = receiver_email
-        message["Subject"] = "Verify Your TriNova Email Address"
+        message["Subject"] = "Verify Your SprintSync Email Address"
 
         # Attach both plain text and HTML versions
         message.attach(MIMEText(plain_body, "plain"))

@@ -44,7 +44,8 @@ export default function LoginPage() {
       }
     } catch (err: any) {
       console.error("Login error:", err);
-      const errorMessage = err.response?.data?.detail || "Invalid email or password";
+      const errorMessage =
+        err.response?.data?.detail || "Invalid email or password";
       setError(errorMessage);
       // toast.error(errorMessage);
     } finally {
@@ -61,7 +62,11 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="gap-y-1">
           <div className="flex items-center justify-center mb-4">
-            <img src="/trinova-logo.png" alt="Logo" className="w-16 h-auto" />
+            <img
+              src="/trinova-logo.png"
+              alt="Logo"
+              className="w-16 h-auto"
+            />
           </div>
           <CardTitle className="text-2xl text-center">Welcome back</CardTitle>
           <CardDescription className="text-center">

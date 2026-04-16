@@ -52,13 +52,21 @@ export function Navigation({
       label: "Sprints",
       icon: Calendar,
     },
-    { href: "/dashboard/team_member/calendar", label: "Calendar", icon: Calendar },
+    {
+      href: "/dashboard/team_member/calendar",
+      label: "Calendar",
+      icon: Calendar,
+    },
   ];
 
   const managerNavItems = [
     { href: "/dashboard/pm", label: "Dashboard", icon: Home },
     { href: "/dashboard/pm/sprints", label: "Sprints", icon: Calendar },
-    { href: "/dashboard/pm/action-items", label: "Action Tracker", icon: ClipboardList },
+    {
+      href: "/dashboard/pm/action-items",
+      label: "Action Tracker",
+      icon: ClipboardList,
+    },
     { href: "/dashboard/pm/calendar", label: "Calendar", icon: Calendar1 },
     {
       href: "/dashboard/pm/sync-tasks",
@@ -84,9 +92,13 @@ export function Navigation({
               className="flex-shrink-0 flex items-center gap-2 cursor-pointer"
               onClick={() => navigate(`/dashboard/${userRole}`)}
             >
-              <img src="/trinova-logo.png" alt="Logo" className="w-8 sm:w-9 h-auto" />
+              <img
+                src="/SprintSync-logo.png"
+                alt="Logo"
+                className="w-8 sm:w-9 h-auto"
+              />
               <p className="font-sans text-xl lg:text-2xl tracking-wider font-bold text-zinc-800 dark:text-zinc-300">
-                TriNova
+                SprintSync
               </p>
             </div>
             <div className="h-full hidden md:ml-6 md:flex md:space-x-8">

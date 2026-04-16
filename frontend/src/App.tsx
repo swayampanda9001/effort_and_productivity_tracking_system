@@ -24,10 +24,10 @@ const TaskDetailsPage = lazy(() => import("@/pages/task"));
 const ManagerDashboardPage = lazy(() => import("@/pages/manager-dashboard"));
 const SprintsPage = lazy(() => import("@/pages/sprints"));
 const SyncTasksPage = lazy(
-  () => import("@/pages/manager-dashboard/sync-tasks")
+  () => import("@/pages/manager-dashboard/sync-tasks"),
 );
 const TeamOverview = lazy(
-  () => import("@/pages/manager-dashboard/team-overview")
+  () => import("@/pages/manager-dashboard/team-overview"),
 );
 const ManageSprintPage = lazy(() => import("@/pages/sprints/sprint"));
 
@@ -44,9 +44,9 @@ function App() {
   useEffect(() => {
     if (user?.role) {
       const roleTitle = user.role.charAt(0).toUpperCase() + user.role.slice(1);
-      document.title = `Dashboard - ${roleTitle} | TriNova`;
+      document.title = `Dashboard - ${roleTitle} | SprintSync`;
     } else {
-      document.title = "TriNova - The Future of Agile Management";
+      document.title = "SprintSync - The Future of Agile Management";
     }
   }, [user]);
 
@@ -119,11 +119,14 @@ function App() {
                   </RoleGuard>
                 }
               />
-              <Route path="team_member/calendar" element={
-                <RoleGuard allowedRoles={["team_member"]}>
-                  <CalendarPage />
-                </RoleGuard>
-              } />
+              <Route
+                path="team_member/calendar"
+                element={
+                  <RoleGuard allowedRoles={["team_member"]}>
+                    <CalendarPage />
+                  </RoleGuard>
+                }
+              />
               <Route
                 path="team_member/sprints"
                 element={
@@ -169,16 +172,22 @@ function App() {
                       </RoleGuard>
                     }
                   />
-                  <Route path={`${role}/calendar`} element={
-                    <RoleGuard allowedRoles={[role]}>
-                      <CalendarPage />
-                    </RoleGuard>
-                  } />
-                  <Route path={`${role}/action-items`} element={
-                    <RoleGuard allowedRoles={[role]}>
-                      <ActionItemsPage />
-                    </RoleGuard>
-                  } />
+                  <Route
+                    path={`${role}/calendar`}
+                    element={
+                      <RoleGuard allowedRoles={[role]}>
+                        <CalendarPage />
+                      </RoleGuard>
+                    }
+                  />
+                  <Route
+                    path={`${role}/action-items`}
+                    element={
+                      <RoleGuard allowedRoles={[role]}>
+                        <ActionItemsPage />
+                      </RoleGuard>
+                    }
+                  />
                   <Route
                     path={`${role}/sync-tasks`}
                     element={

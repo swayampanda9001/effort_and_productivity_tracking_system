@@ -32,7 +32,7 @@ class Settings(BaseSettings):
     # Application
     DEBUG: bool = True
     API_V1_STR: str = "/api/v1"
-    PROJECT_NAME: str = "TriNova"
+    PROJECT_NAME: str = "SprintSync"
     DESCRIPTION: Optional[str] = "The Future of Agile Management"
 
     # Specify the .env file to load

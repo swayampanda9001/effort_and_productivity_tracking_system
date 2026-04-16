@@ -71,7 +71,7 @@ export default function RegisterPage() {
     try {
       const response = await API.post("/auth/register", formData);
       if (response.data) {
-        toast.success("Registration successful! Welcome to TriNova.");
+        toast.success("Registration successful! Welcome to SprintSync.");
         login(response.data.user, response.data.access_token);
       }
     } catch (err: any) {
@@ -94,7 +94,11 @@ export default function RegisterPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1">
           <div className="flex items-center justify-center mb-4">
-            <img src="/trinova-logo.png" alt="Logo" className="w-16 h-auto" />
+            <img
+              src="/trinova-logo.png"
+              alt="Logo"
+              className="w-16 h-auto"
+            />
           </div>
           <CardTitle className="text-2xl text-center">Create account</CardTitle>
           <CardDescription className="text-center">

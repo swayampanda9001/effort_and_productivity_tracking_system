@@ -1,8 +1,8 @@
-# TriNova — Agile Sprint & Productivity Tracking System
+# SprintSync — Agile Sprint & Productivity Tracking System
 
 > _The Future of Agile Management_
 
-TriNova is a full-stack web application for managing Agile sprints, tracking team effort, and measuring productivity. It supports three distinct roles — **Team Members**, **Project Managers (PM)**, **Scrum Masters (SM)** — plus a dedicated **Admin Panel**. The system features real-time notifications, automated productivity scoring, task commenting, effort log approvals, and file attachments.
+SprintSync is a full-stack web application for managing Agile sprints, tracking team effort, and measuring productivity. It supports three distinct roles — **Team Members**, **Project Managers (PM)**, **Scrum Masters (SM)** — plus a dedicated **Admin Panel**. The system features real-time notifications, automated productivity scoring, task commenting, effort log approvals, and file attachments.
 
 ---
 
@@ -348,8 +348,8 @@ npx vercel --prod
 
 ```bash
 # Build and run the API container
-docker build -t trinova-api ./backend
-docker run -p 8000:8000 --env-file backend/.env trinova-api
+docker build -t SprintSync-api ./backend
+docker run -p 8000:8000 --env-file backend/.env SprintSync-api
 
 # Or use Docker Compose (API + MySQL)
 docker-compose -f backend/docker-compose.yml up --build
